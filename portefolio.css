@@ -1,0 +1,49 @@
+body {
+    position: relative;
+}
+.container-fluid
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-image:url("https://uploads.toptal.io/blog/image/125783/toptal-blog-image-1522333595770-14ba14a2f6099482fa9189f8764dd5ad.png");
+    color: black;
+}
+.container-fluid-image
+{
+    padding: 20px;
+}
+.container-fluid-description
+{
+    text-align: center;
+    padding:60px; 
+}
+.sections
+{
+    border-radius:25px;
+    padding: 20px;
+    margin: 40px;
+    text-align: justify;
+}
+.affix {
+    top: 20px;
+    z-index: 9999 !important;
+}
+div.col-sm-9 div {
+    font-size: 28px;
+}
+.thumbnail
+{
+    background-color: transparent;
+}
+#about {color: #fff; background-color: #1E88E5;}
+#education {color: #fff; background-color: #673ab7;}
+#experience {color: #fff; background-color: #ff9800;}
+#contact-me {color: #fff; background-color: #00bcd4;}
+#social-media {color: #fff; background-color: #00bcd4;}
+
+@media screen and (max-width: 810px) {
+  #section1, #section2, #section3, #section41, #section42  {
+      margin-left: 150px;
+  }
+}
